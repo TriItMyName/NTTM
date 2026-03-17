@@ -1,0 +1,213 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #fff;
+	background-repeat: repeat-x;
+	background-position: top	
+}
+
+.homepage { background-image: url(../images/tooplate_body.jpg); }
+.subpage { background-image: url(../images/tooplate_body_subpage.jpg) }
+
+.header-section {
+	padding: 10px 0;
+}
+
+a, a:link, a:visited { color: #e98236; font-weight: bold; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+em { color: #000; font-weight: bold; font-style: normal }
+
+h1, h2, h3, h4, h5, h6 { color: #000; font-weight: normal; }
+h1 { font-size: 34px; margin: 0 0 20px 0; padding: 5px 0 }
+h2 { font-size: 28px; margin: 0 0 20px 0; padding: 5px 0; }
+h3 { font-size: 24px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+a.more { 
+	clear: both; 
+	display: block; 
+	width: 103px; 
+	height: 30px; 
+	line-height: 30px; 
+	text-align: center; 
+	color: #000; 
+	font-weight: bold; 
+	background: url(../images/tooplate_button.png); 
+}
+
+a.more:hover { 
+	text-decoration: none; 
+	color: #fff; 
+}
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { 
+	display: inline-block; 
+	border: 5px solid #fff; 
+	background: none; 
+	margin-bottom: 5px; 
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 15px 0 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 15px; 
+}
+
+.tooplate_list { 
+	margin: 20px 0 20px 20px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.tooplate_list li { 
+	color:#e98236; 
+	margin: 0; 
+	padding: 0 0 0 20px; 
+	background: url(../images/tooplate_list.jpg) no-repeat scroll 0 7px;  
+}
+
+.tooplate_list li a { 
+	color: #e98236; 
+	font-weight: normal; 
+}
+
+.tooplate_list li a:hover { 
+	color: #e98236; 
+}
+
+#tooplate_wrapper {
+	width: 960px;
+	padding: 0 20px;
+	margin: 0 auto
+}
+
+#tooplate_header {
+	width: 960px;
+	height: 100px;
+}
+
+#site_title { 
+	float: left; 
+}
+
+#site_title h1 { 
+	margin: 30px 0 0 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	width: 205px; 
+	height: 48px; 
+	color: #fff; 
+	text-indent: -10000px; 
+	background: url(../images/tooplate_logo.png); 
+}
+
+.tooplate_menu {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background: url(../images/tooplate_menu.jpg) repeat-x; /* Đảm bảo đường dẫn ảnh đúng */
+    background-color: #222; /* Fallback color nếu ảnh không load được */
+    display: flex; /* Dùng Flexbox thay cho float để dễ căn chỉnh */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tooplate_menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tooplate_menu ul li {
+    width: 100px;
+    text-align: center;
+    /* Dùng background chia vạch giữa các mục */
+    background: url(../images/tooplate_menu_divider.png) no-repeat right center;
+}
+
+/* Ẩn vạch chia ở thẻ li cuối cùng */
+.tooplate_menu ul li:last-child {
+    background: none;
+}
+
+.tooplate_menu ul li a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    padding-top: 15px; /* Căn giữa chữ theo chiều dọc */
+    font-size: 14px;
+    text-decoration: none;
+    color: #5fa008;
+    background: url(../images/tooplate_menu.png) no-repeat bottom center;
+}
+
+/* Trạng thái Hover và Active */
+.tooplate_menu ul li a:hover,
+.tooplate_menu ul li a.active { /* Sửa .current thành .active cho khớp HTML */
+    color: #fff;
+    background: url(../images/tooplate_menu_hover.png) bottom center no-repeat;
+}
+
+/* Phần Search Box */
+.search-box {
+    margin-right: 15px;
+    display: flex;
+    width: 170px;
+    height: 27px;
+    background: url(../images/tooplate_search.png) no-repeat;
+    background-color: #333; /* Fallback */
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.search-box input {
+    width: 130px;
+    height: 100%;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #ccc;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Nút Go */
+.search-box button {
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+    background: #6eb715; /* Màu xanh lá cho nút, có thể thay bằng ảnh nếu có */
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "nttm",
+  "version": "1.0.0",
+  "description": "2280603377\tTrần Trọng \tTrí\r 2280601950\tNguyễn Trần Bảo\tMinh\r 2280602270\tTô Vạn\tNiên\r 2280602778\tBùi Tấn\tTài",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TriItMyName/NTTM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TriItMyName/NTTM/issues"
+  },
+  "homepage": "https://github.com/TriItMyName/NTTM#readme",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1"
+  }
+}
