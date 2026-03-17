@@ -298,3 +298,20 @@ a.more:hover {
     line-height: 1.5;
     margin-bottom: 10px;
 }
+
+/* --- CSS FOOTER --- */
+.footer-section {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    border-top: 5px solid #82b541; /* Viền xanh lá ở trên footer */
+}
+.footer-section a {
+    color: #82b541;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
