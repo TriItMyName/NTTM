@@ -204,11 +204,7 @@ a.more:hover {
     width: 40px;
     height: 100%;
     cursor: pointer;
-<<<<<<< HEAD
     background: #ff0000;
-=======
-    background: #000000; /* Màu xanh lá cho nút, có thể thay bằng ảnh nếu có */
->>>>>>> 353ef4c1638510bc54533f59e9d1c8b01c0b4fb7
     color: white;
     border: none;
     font-weight: bold;
@@ -301,4 +297,21 @@ a.more:hover {
     color: #666;
     line-height: 1.5;
     margin-bottom: 10px;
+}
+
+/* --- CSS FOOTER --- */
+.footer-section {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    border-top: 5px solid #82b541; /* Viền xanh lá ở trên footer */
+}
+.footer-section a {
+    color: #82b541;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    text-decoration: underline;
 }
