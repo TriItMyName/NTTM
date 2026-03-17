@@ -204,11 +204,7 @@ a.more:hover {
     width: 40px;
     height: 100%;
     cursor: pointer;
-<<<<<<< HEAD
     background: #ff0000;
-=======
-    background: #000000; /* Màu xanh lá cho nút, có thể thay bằng ảnh nếu có */
->>>>>>> 353ef4c1638510bc54533f59e9d1c8b01c0b4fb7
     color: white;
     border: none;
     font-weight: bold;
