@@ -229,3 +229,37 @@ a.more:hover {
     width: 100%;
     border-bottom: 5px solid #82b541;
 }
+
+/* --- CSS CONTENT 2 & 3 (SERVICES) --- */
+.welcome-section, .features-section {
+    padding: 30px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.welcome-section h2 {
+    color: #333;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.services-row {
+    display: flex;
+    justify-content: space-between;
+}
+.service-col {
+    display: flex;
+    width: 48%;
+    gap: 15px;
+}
+.service-icon img {
+    width: 60px; /* Điều chỉnh kích thước icon cho phù hợp */
+}
+.service-text h3 {
+    font-size: 16px;
+    color: #1a6b9a; /* Màu xanh dương giống mẫu */
+    margin-bottom: 10px;
+}
+.service-text p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+}
